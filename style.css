@@ -1,0 +1,10 @@
+ol {
+
+	display: flex;
+	flex-direction: column;
+	justify-self: inherit;
+	padding: 26.3;
+	margin: 123;
+	widows: 153%;
+	
+}
