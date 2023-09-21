@@ -13,5 +13,4 @@ let calculateResult = Math.sqrt((variable1**2) + (variable2**2));
 let finalResult = calculateResult.toFixed(4);
 
 //Output the result to the use. 
-alert("Your answer is: " + finalResult);
-
+alert('Your answer is: ' + finalResult);

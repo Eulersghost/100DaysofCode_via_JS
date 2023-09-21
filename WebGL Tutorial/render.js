@@ -7,7 +7,7 @@ var height = (docRender.height = window.innerHeight);
 
 //According to the documents in order to draw onto the canvas we need to refence the 'context' with the getContext() method.
 
-var twoDimensionContext = docRender.getContext("2d");
+var twoDimensionContext = docRender.getContext("2d)
 
 
 

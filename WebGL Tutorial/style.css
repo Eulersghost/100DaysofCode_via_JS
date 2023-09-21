@@ -1,0 +1,19 @@
+html {
+
+	background: green;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1 rem;
+
+
+}
+
+.render {
+
+	display: flex;
+	flex-direction: column;
+	justify-self: column;
+
+}
+
+
+
