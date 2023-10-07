@@ -1,0 +1,34 @@
+//practice 4.4
+
+const numberGenerator = Math.floor(Math.random () * 6);
+
+//looks like the userInput variable is going to be used later on.
+let userInput= prompt("Go ahead and ask me something: ");
+
+//create a variable to store the computers answer based on the random generator. 
+var computeAnswer = " "; 
+
+switch (numberGenerator) {
+  case 0: 
+    computeAnswer = "You will have a bright future";
+    break;
+  case 1:
+    computeAnswer = "You will win a car soon in your future";
+    break;
+  case 2: 
+    computeAnswer= "A girl will cross your path, and you will have a big family";
+    break;
+  case 3: 
+    computeAnswer= "You are going to become president of the USA";
+    break;
+  case 4:
+    computeAnswer= "You aren't going to win the lottery this year."
+  break;
+    default:
+    computeAnswer="I'm sorry but the universe and the energies aren't aligned with you yet";
+    break;
+}
+
+var finalOutput = `Looks like the answer to your question ${userInput} is ${computeAnswer}.`;
+
+alert(finalOutput);
